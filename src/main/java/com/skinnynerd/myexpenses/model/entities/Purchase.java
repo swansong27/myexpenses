@@ -1,4 +1,8 @@
 package com.skinnynerd.myexpenses.model.entities;
 
-public class Purchase {
+import javax.persistence.Table;
+
+@Table(name = "PURCHASE")
+public class Purchase extends BaseEntity {
+
 }
